@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<testsuites>
+  <testsuite>
+<testcase classname="app" name="app:1:">
+  <failure message="Unsafe character." />
+</testcase>
+<testcase classname="app" name="app:1:1">
+  <failure message="Unexpected character '﻿'." />
+</testcase>
+<testcase classname="app" name="app:1:1">
+  <failure message="Stopping. (20% scanned)." />
+</testcase>
+<testcase classname="searchController" name="searchController:1:">
+  <failure message="Unsafe character." />
+</testcase>
+<testcase classname="searchController" name="searchController:1:2">
+  <failure message="Expected 'var' at column 1, not column 2." />
+</testcase>
+<testcase classname="searchController" name="searchController:1:17">
+  <failure message="'hotels4u' used out of scope." />
+</testcase>
+<testcase classname="searchController" name="searchController:4:5">
+  <failure message="Missing 'use strict' statement." />
+</testcase>
+<testcase classname="searchController" name="searchController:12:27">
+  <failure message="'searchController' was used before it was defined." />
+</testcase>
+<testcase classname="gruntfile" name="gruntfile:1:">
+  <failure message="Unsafe character." />
+</testcase>
+<testcase classname="gruntfile" name="gruntfile:1:2">
+  <failure message="Expected 'module' at column 1, not column 2." />
+</testcase>
+<testcase classname="gruntfile" name="gruntfile:2:5">
+  <failure message="Missing 'use strict' statement." />
+</testcase>
+<testcase classname="gruntfile" name="gruntfile:10:19">
+  <failure message="Expected '*.js' at column 21, not column 19." />
+</testcase>
+<testcase classname="gruntfile" name="gruntfile:15:23">
+  <failure message="Expected 'jQuery' at column 25, not column 23." />
+</testcase>
+<testcase classname="gruntfile" name="gruntfile:23:7">
+  <failure message="Expected ';' and instead saw '}'." />
+</testcase>
+<testcase classname="gruntfile" name="gruntfile:24:2">
+  <failure message="Expected ';' and instead saw '(end)'." />
+</testcase>
+  </testsuite>
+</testsuites>

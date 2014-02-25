@@ -1,0 +1,16 @@
+{
+  "name": "WebApplicationGrunt",
+  "version": "0.0.0",
+  "description": "",
+  "main": "app.js",
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "bower": "~1.2.8",
+    "grunt-contrib-jshint": "~0.8.0"
+  },
+  "scripts": {
+    "preinstall": "npm install -g grunt-cli"
+  },
+  "author": "",
+  "license": "ISC"
+}

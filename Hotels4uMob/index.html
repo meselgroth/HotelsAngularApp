@@ -1,0 +1,60 @@
+﻿<!DOCTYPE html>
+<html ng-app="webApp">
+<head>
+    <title></title>
+    <link href="bower_components/bootstrap/dist/css/bootstrap.css" rel="stylesheet" />
+    <link href="bower_components/bootstrap/dist/css/bootstrap-theme.css" rel="stylesheet" />
+
+    <style>
+        .navbar-inverse .navbar-nav > li > a {
+            color: #ffffff;
+        }
+         .navbar-inverse .navbar-nav > .active > a {
+            background-image: linear-gradient(to bottom, #AAEC04 0, #19B828 100%);
+            color: #006930;
+        }
+        .navbar-toggle {
+            margin-top: 1px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a class="navbar-brand" href="#"><img src="images/header-logo.png" alt="" /></a>
+        <div class="navbar navbar-inverse navbar-fixed-top" role="navigation" style="background-image: linear-gradient(to bottom, #00B117 0, #006E28 100%);position:relative;top:50px">
+            <div class="container">
+
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#about">Late Deals</a></li>
+                        <li><a href="#contact">City Hotels</a></li>
+                        <li><a href="#contact">Beach Hotels</a></li>
+                        <li><a href="#contact">UK & Ireland</a></li>
+                        <li><a href="#contact">All-Inclusive Hotels</a></li>
+                        <li><a href="#contact">Hotels</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </header>
+    <div class="container" style="margin-top:70px" ng-view>
+        
+    </div>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script>
+    <script src="client/searchController.js"></script>
+    <script src="client/app.js"></script>
+</body>
+</html>
